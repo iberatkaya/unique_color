@@ -21,10 +21,6 @@ void main() {
     expect(color1 != color2 && color1 != color3 && color2 != color3, true);
   });
 
-  test('Throw error when parameter is null', () {
-    expect(() => generateColor(null), throwsException);
-  });
-
   test('Should generate hex color with empty string', () {
     var color = generateColor('');
     expect(color.contains('#'), true);
