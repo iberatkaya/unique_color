@@ -1,6 +1,6 @@
 name: unique_color
 description: Generate a time invariant hex color.
-version: 1.0.0
+version: 2.0.0
 repository: https://github.com/iberatkaya/unique_color
 
 environment:
