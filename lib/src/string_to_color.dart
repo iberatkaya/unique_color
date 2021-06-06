@@ -3,9 +3,6 @@ const factor = 49979693;
 
 ///Generate a time invariant Hex color from a [text].
 String generateColor(String text) {
-  if (text == null) {
-    throw Exception('Parameter cannot be null!');
-  }
   var b = 1;
   var d = 0;
   var f = 1;
